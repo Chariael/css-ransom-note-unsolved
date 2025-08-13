@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fontsource/opendyslexic": "^5.2.5",
     "live-server": "^1.2.2"
   }
 }

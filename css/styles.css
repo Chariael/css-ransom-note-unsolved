@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&family=Ceviche+One&Raleway+Dots&Kaisei+Deco&Ribeye+Marrow&Megrim&Monoton&Tagesschrift&UnifraktorMaguntia&Black+Ops+One&Calligraffitti&Caesar+Dressing&Rubik+Gemstones&Gemunu+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap');
 
 * {
   padding: 0;
@@ -80,225 +92,181 @@ body {
   font-family: 'Raleway Dots', sans-serif;
 }
 
-/* DID word */
-
-.didDLetter {
+/* one letter per my word */
+.didILetter, .theTLetter, .frontendELetter, .developerPLetter, .takeALetter, .upULetter, .gardeningGTwoLetter, .becauseSLetter, .theyHLetter, .wantedWLetter, .toTLetter, .improveVLetter, .theirHLetter, .rootRLetter, .skillsSTwoLetter {
+  font-size: 60px;
+  font-weight: 400;
+  color: #4b4b4b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Tagesschrift', serif;
+}
+/* fourth letter of each applicable word */
+.frontendNLetter, .developerETwoLetter, .takeELetter, .gardeningDLetter, .becauseALetter, .theyYLetter, .wantedTLetter, .improveRLetter, .theirILetter, .rootTLetter, .skillsLLetter {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  color: (49,99,89);
+  text-decoration: none;
+  font-family: 'Caesar Dressing', sans-serif;
+}
+/* letter from every-other word */
+.didDLetter, .frontendRLetter, .takeKLetter, .gardeningILetter, .theyELetter, .theirELetter {
+  font-size: 40px;
+  color: maroon;
+  text-transform: uppercase;
+  font-family: 'UnifrakturMaguntia', cursive;
 }
 
-.didILetter {
+/* letters o */
+.frontendOLetter, .developerOLetter, .toOLetter, .improveOLetter, .rootOLetter, .rootOTwoLetter {
+  font-size: 95px;
+  font-weight: bold;
+  color: lime;
+  font-family: 'Gemunu Libre', cursive; 
 }
 
-.didDTwoLetter {
+/* remainder of DID and UP words */
+
+.didDTwoLetter, .upPLetter {
+  font-size: 60px;
+  color: #EE82EE;
+  font-family: 'Ribeye Marrow', sans-serif;
 }
 
-/* THE word */
+/*remainder of THE and THEIR words */
 
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
+.theHLetter, .theirTLetter {
+  font-size: 40px;
+  font-weight: bolder;
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Monoton', fantasy;
 }
 
-.frontendRLetter {
+.theELetter, .theirRLetter {
+  font-size: 40px;
+  font-weight: bolder;
+  color:  #4B0082;
+  font-family: 'Megrim', sans-serif;
 }
 
-.frontendOLetter {
+/*remainder of FRONT-END, SKILLS, and part of GARDENING and WANTED words */
+
+.frontendFLetter, .gardeningGLetter, .skillsSLetter, .wantedDLetter {
+  font-size: 40px;
+  color: #00FF00;
+  font-family: 'Black Ops One', monospace;
 }
 
-.frontendNLetter {
+.frontendNTwoLetter, .gardeningALetter, .skillsKLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: #FFA500;
+  text-decoration: line-through;
+  font-family: 'Georgia', serif;
 }
 
-.frontendTLetter {
+.frontendTLetter, .gardeningRLetter, .skillsILetter, .wantedELetter {
+  font-size: 60px;
+  color: #FFFF00;
+  font-family: 'Calligraffitti', cursive;
 }
 
-.frontendELetter {
+.frontendDLetter, .gardeningELetter, .skillsLTwoLetter {
+    font-size: 60px;
+  color: #FF0000;
+  font-family: 'Rubik Gemstone', serif;
 }
 
-.frontendNTwoLetter {
+/*remainder of DEVELOPER, GARDENING, IMPROVE, and part of BECAUSE words */
+
+.developerDLetter, .gardeningNLetter, .improveILetter {
+  font-size: 60px;
+  font-weight: bold;
+  color: violet;
+  text-transform: uppercase;
+  font-family: 'Rubik Gemstone', serif;
+}
+.developerELetter, .gardeningNTwoLetter, .improveELetter {
+    font-size: 100px;
+  font-weight: bolder;
+  color: blueviolet;
+  text-decoration: overline;
+  font-family: 'Georgia', serif;
+}
+.developerVLetter, .becauseBLetter {
+  font-size: 60px;
+  color: indigo;
+  font-family: 'Calligraffitti', cursive;
+}
+.developerLLetter, .becauseELetter, .improveMLetter {
+  font-size: 80px;
+  font-style: italic;
+  color: blue;
+  font-family: 'Black Ops One', monospace;
+}
+.developerEThreeLetter, .becauseCLetter {
+    font-size: 50px;
+  font-weight: bolder;
+  color: #088F8F;
+  font-family: 'Megrim', sans-serif;
+}
+.developerRLetter, .becauseULetter, .improvePLetter {
+    font-size: 40px;
+  font-weight: bold;
+  color: green;
+  text-decoration: underline;
+  font-family: 'Monoton', fantasy;
 }
 
-.frontendDLetter {
-}
+/*remainder of TAKE and BECAUSE words */
 
-/* DEVELOPER word */
-
-.developerDLetter {
+.takeTLetter, .becauseETwoLetter {
+   font-size: 72px;
+  font-weight: bold;
+  color: olivedrab;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
 }
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
+/*remainder of THEY word */
 
 .theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: lime;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Georgia', serif;
 }
 
-/* WANTED word */
+/*remainder of WANTED word */
 
-.wantedWLetter {
-}
 .wantedALetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: gold;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
 }
 .wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: peachpuff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* SYMBOLS */
 
-.hyphen {
+.hyphen, .exclamation-mark, .question-mark {
+  font-size: 70px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Kaisei Decol', monospace;
 }
-.exclamation-mark {
-}
-.question-mark {
-}
+
+ 
